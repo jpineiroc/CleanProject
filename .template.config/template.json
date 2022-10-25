@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Javier",
+  "classifications": [
+    "Web",
+    "SPA",
+    "ASP.NET",
+    "Clean Architecture"
+  ],
+  "name": "Javier template",
+  "description":  "This is a test.",
+  "identity": "Javier.Clean.Architecture.Solution.CSharp",
+  "groupIdentity": "Javier.Clean.Architecture.Solution",
+  "shortName": "ja-sln",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "JavierCleanArchitecture",
+  "preferNameDirectory": true,
+  "sources": [
+    {
+      "source": "./",
+      "target": "./",
+      "exclude": [
+        "README.md",
+        "**/[Bb]in/**",
+        "**/[Oo]bj/**",
+        ".template.config/**/*",
+        ".vs/**/*",
+        "**/*.filelist",
+        "**/*.user",
+        "**/*.lock.json",
+        "**/.git/**",
+        "*.nuspec",
+        "**/node_modules/**"
+      ]
+    }
+  ]
+}
